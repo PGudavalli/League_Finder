@@ -2,7 +2,7 @@ from riotwatcher import LolWatcher, ApiError
 import pandas as pd
 import csv
 
-api_key = 'RGAPI-1a2fc345-2d9b-4d05-97c4-72dabcf03782'
+api_key = 'RGAPI-XXXXX'
 watcher = LolWatcher(api_key)
 my_region = 'na1'
 
@@ -33,7 +33,8 @@ def find_matches(player_match, reference, endpoint):
         print('You have played with ' f'{reference}' ' this many times: ' f'{boi}' ' in the past ' f'{endpoint}' ' games.')
     else:
         print('Sorry but nope')
-    
+
+print('okay')
 #find_matches(match_c, check, endpoint)
 
 
